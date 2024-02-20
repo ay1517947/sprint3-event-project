@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+</head>
+<body>
+  <form action="#">
+    <h1>Online Registration For a Community Event </h1><hr>
+    <h2>Condidate Information</h2>
+    <p>Required fiealds are followed by *</p>
+    <p>Name:*
+      <input type="text" name="name" id="name" required>
+    </p>
+    <fieldset> <legend>Gender:*</legend><p>
+      Male<input type="radio" name="gender" id="male" required>
+     Female <input type="radio" name="gender" id="female"required>
+    </p></fieldset>
+    <p>Date:<input type="date" name="date" id="date"></p>
+    <p>Address:
+      <textarea name="Address" id="Address" cols="50" rows="7"></textarea>
+    </p>
+    <p>Contact No:*
+      <input type="number" name="contect No." id="contact No."required>
+    </p>
+    <p>Event Preference:*
+      <select name="event" id="event" required>
+        <option value="">--select--</option>
+        <option value="sing">Sing</option>
+        <option value="dance">Dance</option>
+      </select>
+    </p>
+    <button>SUBMIT</button> <button type="reset">RESET</button>
+
+  </form>
+</body>
+</html>
